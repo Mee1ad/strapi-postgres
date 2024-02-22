@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "node_modules/.bin/strapi"
+    "develop": "node_modules/.bin/strapi develop",
+    "start": "node_modules/.bin/strapi start",
+    "build": "node_modules/.bin/strapi build"
   },
   "devDependencies": {},
   "dependencies": {
